@@ -40,12 +40,6 @@ function gameOver() {
     document.getElementById('game-over').style.display = 'block';
 }
 
-
-   // Adicionando evento de toque à tela para detectar toques
-   document.addEventListener('touchstart', function(event) {
-    gameOver(); // Chama a função gameOver quando a tela é tocada
-});
-
 // Adicionando evento de clique ao botão de recarregar
 document.getElementById('retry-button').addEventListener('click', function() {
     location.reload(); // Recarrega a página
